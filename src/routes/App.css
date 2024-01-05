@@ -1,0 +1,33 @@
+.bodyContainer {
+  display: flex;
+}
+
+.bodySection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60vw;
+  min-width: 550px;
+
+  border: 1px solid gray;
+  border-radius: 30px;
+
+  margin: 45px;
+}
+
+.inputRow {
+  width: 100%;
+  min-width: 550px;
+  margin: 5px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.inputRow > div {
+  flex: 1;
+}
+
+.todoHeader {
+  margin-bottom: 25px;
+}
