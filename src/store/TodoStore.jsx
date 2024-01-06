@@ -26,7 +26,10 @@ const TodoContextProvider = ({ children }) => {
   const [spinnerShow, setSpinnerShow] = useState(false);
   const [tab, setTab] = useState("Home");
   const navigate = useNavigate();
-  const baseUrl = "https://todoapp-api-3hbn.onrender.com";
+
+  // base url is the url provided by the web services like onrender.com after deploy the server side
+  const baseUrl = "https://todov2-api.onrender.com";
+  // const baseUrl = "http://localhost:8080";
 
   useEffect(() => {
     setSpinnerShow(true);
